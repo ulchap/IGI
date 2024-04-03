@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 17
 new line
 new
+=======
+qwertyqwertyqwerty
+>>>>>>> 23879e5f2c29791c99ba201c322d09cd2c3de699
