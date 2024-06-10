@@ -1,0 +1,17 @@
+{% extends "menu.html" %}
+{% block title %}Вакансии{% endblock title %}
+{% block header %}Вакансии{% endblock header %}
+
+{% block content %}
+<li><a href="/">На главную</a></li>
+{% for job in jobs %}
+<div>
+    <h2>{{ job.title }}</h2>
+    <p>Зарплата: {{ job.salary }} руб.</p>
+    <p>{{ job.description }}</p>
+</div>
+<hr>
+{% endfor %}
+
+<p>Для получения дополнительной информации и подачи заявки свяжитесь с нами.</p>
+{% endblock content %}

@@ -1,0 +1,24 @@
+{% extends "menu.html" %}
+{% block title %}Добро пожаловать{% endblock title %}
+{% block header %}Главная страница{% endblock header %}
+
+{% block content %}
+<div class="navigation"> 
+    <a href="/login" class="btn btn-primary">Вход</a> 
+    <a href="/register" class="btn btn-secondary">Регистрация</a> 
+</div>
+<div class="time-info">
+    <p>Ваше местное время: {{ user_now }}</p>
+    <p>Время по Гринвичу: {{ utc_now }}</p>
+</div>
+{% if article %} 
+<div class="article">
+    <h3>{{ article.title }}</h3> 
+    <p>{{ article.text }}</p> 
+    <img src="{{ article.img_url }}" width="150" height="150" alt="Статья"> 
+</div>
+{% else %} 
+<p class="no-article">Статей пока нет.</p> 
+{% endif %}
+{% endblock content %}
+
