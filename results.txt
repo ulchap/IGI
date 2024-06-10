@@ -1,0 +1,97 @@
+Number of sentences: 8
+Narrative sentences: 5
+Interrogative sentences: 1
+Imperative sentences: 2
+Average sentence length: 79.125
+Average word length: 5.26
+Number of words with less than 7 characters: 71
+Shortest word ending with 'a': a
+Count smileys: 1
+Words in descending order of length:
+responsibility
+specialized
+governments
+vocational
+activities
+government
+mechanics
+September
+emphasize
+education
+newspaper
+business
+subjects
+academic
+national
+students
+involved
+include
+example
+schools
+differs
+general
+studied
+usually
+school
+United
+little
+States
+amount
+differ
+sports
+offers
+mainly
+drama
+there
+state
+clubs
+local
+spent
+their
+teams
+money
+often
+level
+that
+Most
+They
+some
+runs
+from
+also
+year
+high
+auto
+like
+June
+High
+non
+are
+not
+The
+for
+the
+and
+on
+to
+of
+is
+At
+In
+or
+in
+a
+Extracted prices:
+45.90 USD
+67.25 USD
+32.10 USD
+1680.25 RUB
+250.75 RUB
+890.50 RUB
+4820.30 RUB
+210.90 RUB
+20.15 EU
+39.80 EU
+10.75 EU
+57.90 EU
+27.30 EU
